@@ -1,0 +1,216 @@
+body {
+  padding-top: 50px;
+}
+.starter-template {
+  padding: 40px 15px;
+  text-align: center;
+}
+
+
+/*main land*/
+
+/*Theme and Text Highlight labels */
+.switchers {
+  color: #b3b3b3;
+  //top: 9px;
+  //right: -40%;
+  margin-left: 10px;
+
+}
+
+.switchers2 {
+  //color: #b3b3b3;
+  top: 111px;
+  right: -40%;
+  margin-left: 10px;
+
+}
+
+/*.switchers2 {
+  color: #b3b3b3;
+  //top: 9px;
+  right: -380%;
+  margin-left: 10px;
+
+}*/
+
+/*.checkbox {
+  position: fixed;
+}
+
+#sortable {
+  position: fixed;
+  /*top:190px;
+}
+
+
+/*.nav {
+  top: 5%;
+}*/
+
+#countr_ {
+  position: fixed;
+  top: 60px;
+  //margin-right: 190px;
+  //left: 50%;
+  max-width: 40%;
+  
+}
+
+
+#countr {
+  top: 10px;
+  //color: #b3b3b3;
+}
+
+
+#droppable {
+  //position: fixed;
+  margin-top:10px;
+}
+
+.navbar {
+  left: -15%;
+}
+
+/*menu square a bit down*/
+/*.nav > li {
+  top: 5px;
+}*/
+
+/*big menu on the left side*/
+
+/*
+.nav-pills > li > a {
+  top: 15px;
+  text-align: center;
+}
+*/
+body {
+  //background: #ffffcc;
+   background-image: url('../images/b51.png');
+   background-attachment: fixed;
+  /*
+  #ffffcc
+  #ffff99
+#ccffcc
+#ccff99
+  */
+}
+
+html {
+     //overflow: -moz-scrollbars-vertical;
+     //overflow: scroll;
+     overflow-y: scroll;
+     overflow-x: hidden;
+}
+
+
+/*dropzone {
+  border-style: solid;
+  border-width: 5px;
+  border-color: "";
+}*/
+/*# sourceMappingURL=bootstrap.css.map */
+
+
+
+/*
+@media (min-width: 768px) {
+  .navbar > .container .navbar-brand,
+  .navbar > .container-fluid .navbar-brand {
+    color: red;
+  }
+}
+*/
+#editor { 
+    
+      //text-align: left;
+      position: fixed;
+      width: 70%;
+      height: auto;
+      top: 50px;
+      //right: 3px;
+      bottom: 28px;
+      //left: 10em;
+    }
+    
+/*
+#droppable {
+  position: fixed;
+      top: 65px;
+      width: 35%;
+}
+*/
+/*#sortable {
+  position: fixed;
+      top: 65px;
+      width: 33%;
+}
+*/
+
+/* navbar */
+.navbar-xs {
+  min-height: 28px;
+  height: 28px;
+}
+
+.navbar-xs .navbar-brand {
+  padding: 0px 12px;
+  font-size: 16px;
+  line-height: 28px;
+}
+
+.navbar-xs .navbar-nav > li > a {
+  padding-top: 0px;
+  padding-bottom: 0px;
+  line-height: 28px;
+  //bottom: 15px;
+}
+
+.social {
+  bottom: 7px;
+  right: -70%;
+  font-size: 16px;
+}
+.nav .nav-pills .navbar-right {
+  min-height: 200px;
+}
+
+/*.navbar-xs .navbar-nav > li {
+  top: -5px;
+  right: -70%;
+}
+
+#social {
+top: -5px;
+right: -70%;
+}
+
+.fa {
+  //vertical-align: top;
+  //left: -100;
+  top: -15px;
+}
+*/
+
+body {
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+#HARDDELETE {
+    background-color: #363636 !important;
+    border-color: white;
+}
+
+/*#SOFTDELETE {
+    background-color: #363636 !important;
+    border-color: white;
+    text-decoration:  white;
+}*/
+

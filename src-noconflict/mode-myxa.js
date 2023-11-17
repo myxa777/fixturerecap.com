@@ -69,7 +69,7 @@ var SqlHighlightRules = function() {
         }, {
         //yellow
             token : "support.function", // float
-            regex : "min/max|min/|/max",
+            regex : "min/max|min/|/max|pdpr/|nil",
             caseInsensitive: true
         }, {
             token: "variable",
@@ -87,9 +87,11 @@ var SqlHighlightRules = function() {
             "owner/|owns/|ows/|owners/|ownr/|" +
             "/owner/|/owns/|/ows/|/owners/|/ownr/|" +
             "/owner|/owns|/ows|/owners|/ownr|" +
+            "owner\'|owns\'|ows\'|owners\'|ownr\'|" +
             "chrtrs/|charter/|charterers/|charterer/|charts/|chrts/|chrt/|chr/|chart/|charterss/|" +
             "/chrtrs/|/charter/|/charterers/|/charterer/|/charts/|/chrts/|/chrt/|/chr/|/chart/|/charterss/|"+
-            "/chrtrs|/charter|/charterers|/charterer|/charts|/chrts|/chrt|/chr|/chart|/charterss",
+            "/chrtrs|/charter|/charterers|/charterer|/charts|/chrts|/chrt|/chr|/chart|/charterss|"+
+            "chrtrs\'|charter\'|charterers\'|charterer\'|charts\'|chrts\'|chrt\'|chr\'|chart\'|charterss\'",
             caseInsensitive: true
         }, {
             token: "string",
